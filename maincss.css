@@ -1,0 +1,40 @@
+body {
+    background-color: skyblue;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 58px;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+li {
+    display: inline;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: white ;
+}
+
+li a:hover{
+    color: blueviolet;
+}
+li a:active{
+    color: brown;
+}
+a {
+    display: block;
+    float: left;
+    padding: 20px;
+    text-align: center;
+  }
+
+.activeIcon {
+    background-color: #04AA6D;
+}
